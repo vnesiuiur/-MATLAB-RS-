@@ -1,6 +1,6 @@
-all_msg=a_msg; %所有可能的信号  
+all_msg=a_msg; %所有可能的信号
 all_msg_gf=gf(all_msg,3); %将所有的信号映射到GF域
-all_code_msg=rs_rscode(all_msg_gf) ; %对所有的信号进行RS编码，得  
+all_code_msg=rs_rscode(all_msg_gf) ; %对所有的信号进行RS编码，得到所有正确的编码
 
 msg=rand(5,3);
 msg=floor(msg*8) %产生随机的5组信号
